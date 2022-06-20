@@ -6,4 +6,4 @@ public class Greetings : MonoBehaviour
     {
         Debug.Log("Hello World!");
     }
-  
+}
