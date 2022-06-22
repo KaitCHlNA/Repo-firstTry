@@ -1,5 +1,5 @@
 using UnityEngine;
-//Script creado para que las balas instanciada se muevan en 1 dirección
+//Script con comportamiento de movimiento de balas en una dirección con una velocidad determinada y modificable
 
 public class BulletMovement : MonoBehaviour
 {
