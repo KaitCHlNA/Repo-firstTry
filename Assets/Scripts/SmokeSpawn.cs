@@ -5,8 +5,11 @@ public class SmokeSpawn : MonoBehaviour
 {
     public GameObject prefabSmoke;
     public Transform smokePosition;
-    
-    
+
+    void Start()
+    {
+        Instantiate(prefabSmoke, smokePosition.position,transform.rotation);
+    }
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))

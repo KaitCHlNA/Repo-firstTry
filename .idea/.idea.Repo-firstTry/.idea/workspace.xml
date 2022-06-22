@@ -12,8 +12,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BulletMovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BulletSpawnL.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BulletSpawnSpace.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ShootNSpawn.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -78,7 +77,8 @@
       <updated>1655765795073</updated>
       <workItem from="1655765803867" duration="202000" />
       <workItem from="1655769703473" duration="2079000" />
-      <workItem from="1655853229758" duration="4960000" />
+      <workItem from="1655853229758" duration="7022000" />
+      <workItem from="1655864745330" duration="2898000" />
     </task>
     <servers />
   </component>
