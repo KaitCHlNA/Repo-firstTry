@@ -11,7 +11,6 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BulletMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ShootNSpawn.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -79,6 +78,8 @@
       <workItem from="1655769703473" duration="2079000" />
       <workItem from="1655853229758" duration="7022000" />
       <workItem from="1655864745330" duration="2898000" />
+      <workItem from="1655867730762" duration="187000" />
+      <workItem from="1655868357479" duration="409000" />
     </task>
     <servers />
   </component>
