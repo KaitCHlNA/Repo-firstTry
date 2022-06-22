@@ -9,6 +9,10 @@ public class SmokeSpawn : MonoBehaviour
     
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Instantiate(prefabSmoke, smokePosition.position,transform.rotation);
+        }   
         if (Input.GetKeyDown(KeyCode.J))
         {
             Instantiate(prefabSmoke, smokePosition.position,transform.rotation);

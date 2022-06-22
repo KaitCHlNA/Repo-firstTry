@@ -12,12 +12,12 @@ public class PlayerHealth : MonoBehaviour
 
     void Start()
     {
-        Debug.Log(playerLife + "HP");
+        //Debug.Log(playerLife + "HP");
     }
     
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.J))
+        if(Input.GetKeyDown(KeyCode.Space))
         {
             Debug.Log("-" + bulletDamage + " damage"); 
             playerLife -= bulletDamage; 
@@ -46,7 +46,7 @@ public class PlayerHealth : MonoBehaviour
         */
 
     }
-
+    /*
     void HealthStatus()
     {
         do
@@ -57,6 +57,6 @@ public class PlayerHealth : MonoBehaviour
 
         } while (0 >= playerLife || 0 <= playerLife);
         Debug.Log("GAME OVER");
-
     }
+    */
 }
