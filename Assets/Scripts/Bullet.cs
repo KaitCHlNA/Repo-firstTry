@@ -1,7 +1,7 @@
 using UnityEngine;
 //Script con comportamiento de movimiento de balas en una dirección con una velocidad determinada y modificable
 
-public class BulletMovement : MonoBehaviour
+public class Bullet : MonoBehaviour
 {
     public float bulletSpeed = 7f;
     public Vector3 bulletDirection;
@@ -11,5 +11,6 @@ public class BulletMovement : MonoBehaviour
     void Update()
     {
         transform.position += bulletDirection * bulletSpeed * Time.deltaTime;
+        Destroy(gameObject, 2f);
     }
 }

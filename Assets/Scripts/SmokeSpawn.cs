@@ -27,6 +27,6 @@ public class SmokeSpawn : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.L))
         {
             Instantiate(prefabSmoke, smokePosition.position,transform.rotation);
-        }   
+        }
     }
 }
