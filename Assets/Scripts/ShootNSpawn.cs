@@ -39,8 +39,7 @@ public class ShootNSpawn : MonoBehaviour
     void Start()
     {
         //Disparo automático de 1 bala (desafío 3)
-        Instantiate(prefabBulletSpace, spawnSpace.position, transform.rotation); 
-        
+        SpawnSpace();
         //Aparición de humo
         SmookeSpawn();
     }
@@ -97,7 +96,6 @@ public class ShootNSpawn : MonoBehaviour
         Instantiate(prefabBulletL, spawnL4.position, transform.rotation);
     }
 
-    
     
     //Para "adornar" la variable Damage 
     void Health()

@@ -9,8 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5438516483163648265}
-  - component: {fileID: -3813083408736488186}
-  - component: {fileID: -1922566226843806745}
+  - component: {fileID: 777612401953812623}
   - component: {fileID: 4728259242514203260}
   - component: {fileID: 5517710005641307046}
   - component: {fileID: 3153994808184053047}
@@ -36,7 +35,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &-3813083408736488186
+--- !u!114 &777612401953812623
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -50,19 +49,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 7
   bulletDirection: {x: -1, y: 0, z: 0}
-  bulletDamage: 15
---- !u!114 &-1922566226843806745
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3510457983564450702}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 75926d454b6c1fc4eac26c90d1dc85d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   bulletDamage: 15
 --- !u!33 &4728259242514203260
 MeshFilter:
