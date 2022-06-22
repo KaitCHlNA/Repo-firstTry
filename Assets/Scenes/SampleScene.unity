@@ -1153,7 +1153,7 @@ GameObject:
   - component: {fileID: 825991379}
   m_Layer: 0
   m_Name: Canyon
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1209,6 +1209,8 @@ MonoBehaviour:
   spawnL2: {fileID: 50439963}
   spawnL3: {fileID: 288957108}
   spawnL4: {fileID: 2004997262}
+  prefabSmoke: {fileID: 3338658992832240513, guid: 66b4cfd7e8c64784ab936ced4164f6be, type: 3}
+  smokePosition: {fileID: 1781623483}
 --- !u!1 &843989617
 GameObject:
   m_ObjectHideFlags: 0
@@ -1985,7 +1987,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1781623483}
-  - component: {fileID: 1781623484}
   m_Layer: 0
   m_Name: SmokeSpawn
   m_TagString: Untagged
@@ -2000,28 +2001,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1781623482}
-  m_LocalRotation: {x: -0, y: -0, z: -0.25727096, w: 0.9663393}
-  m_LocalPosition: {x: -0.035, y: 2.74, z: -0.114}
+  m_LocalRotation: {x: -0.06503862, y: 0.9688156, z: 0.10727571, w: 0.2136776}
+  m_LocalPosition: {x: 0.29, y: 5.7, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1441792287}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -29.816}
---- !u!114 &1781623484
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1781623482}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62d6b828f5007544695a06065eb0f5d4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefabSmoke: {fileID: 3338658992832240513, guid: 66b4cfd7e8c64784ab936ced4164f6be, type: 3}
-  smokePosition: {fileID: 1781623483}
+  m_LocalEulerAnglesHint: {x: -13.63, y: 155.69, z: -4.732}
 --- !u!1 &2004997261
 GameObject:
   m_ObjectHideFlags: 0
