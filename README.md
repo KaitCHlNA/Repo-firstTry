@@ -6,15 +6,15 @@ Proyecto de instanciación de balas e ingeniería reversa de código (Desafío)
 "Hola mundo!. 
 Disparo automático activado.
 1 bala presione espacio
-2 balas presione j
-3 balas presione k
-4 balas presione l
-solo tienes 100 hp por cada bala disparada con espacio perderás vida, ten cuidado."
+2 balas presione J
+3 balas presione K
+4 balas presione L
+Solo tienes 100 hp, por cada bala disparada con espacio perderás vida, ten cuidado."
 
 
-prototipo cuenta con:
-- Movimiento en las balas
-- Instanciaciones
+El prototipo cuenta con:
+- Movimiento en las balas (1° comportamiento en script)
+- Instanciaciones (2° comportamiento en scripts)
 - Debugs para aparición de mensajes
 - Prefabs de balas y humo.
 - Código de destrucción de prefabs luego de 2 segundos de su instanciación.
